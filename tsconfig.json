@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "./dist/",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "lib": [
+      "dom",
+      "es7"
+    ],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "files": [
+    "webapp/app/polyfills.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "angularCompilerOptions": {
+    "enableIvy": false
+  }
+}

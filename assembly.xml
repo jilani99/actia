@@ -1,0 +1,18 @@
+<assembly>
+    <id>www</id>
+    <!-- START SNIPPET: formats -->
+    <formats>
+        <format>tar.gz</format>
+        <format>zip</format>
+    </formats>
+    <!-- END SNIPPET: formats -->
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <!-- START SNIPPET: fileSets -->
+    <fileSets>
+        <fileSet>
+            <directory>target/www</directory>
+            <outputDirectory></outputDirectory>
+        </fileSet>
+    </fileSets>
+    <!-- END SNIPPET: fileSets -->
+</assembly>

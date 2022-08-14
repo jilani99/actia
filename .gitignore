@@ -1,0 +1,16 @@
+######################
+# Project Specific
+######################
+/target/**
+
+######################
+# Node
+######################
+/node_modules/**
+
+######################
+# Bower
+######################
+/webapp/bower_components/**
+/*.iml
+package-lock.json
